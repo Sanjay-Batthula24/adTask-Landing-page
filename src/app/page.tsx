@@ -24,7 +24,6 @@ import GlowingAdSenseCard from "@/components/components/Social";
 import BentoGrid from "@/components/components/bento-grid";
 import Grid from "@/components/components/grid";
 import Grid2 from "@/components/components/grid2";
-// import Image from "next/image";
 export default function Home() {
   const [isHovered, setIsHovered] = useState<boolean>(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
